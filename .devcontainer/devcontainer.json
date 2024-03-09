@@ -6,5 +6,5 @@
           "extensions": ["dart-code.flutter"]
       }
     },
-    "postCreateCommand": "export PATH=\"$PATH\":\"$HOME/.pub-cache/bin\" && dart pub global activate melos && melos bs"
+    "postCreateCommand": "export PATH=\"$PATH\":\"$HOME/.pub-cache/bin\" && dart pub global activate melos && melos bs && rm /root/.gitconfig"
 }
