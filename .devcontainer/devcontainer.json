@@ -1,4 +1,10 @@
 {
-    "image": "cirrusci/flutter:beta",
-    "forwardPorts": [3000]
+    "image": "ghcr.io/cirruslabs/flutter:stable",
+    "forwardPorts": [3000],
+    "customizations": {
+      "vscode": {
+          "extensions": ["dart-code.flutter"]
+      }
+    },
+    "postCreateCommand": "export PATH=\"$PATH\":\"$HOME/.pub-cache/bin\" && dart pub global activate melos && melos bs"
 }
