@@ -3,3 +3,4 @@
 .DS_Store
 */.flutter-plugins*
 .dart_tool
+pubspec_overrides.yaml
