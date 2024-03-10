@@ -1,0 +1,33 @@
+name: ferry_generator_freezed
+version: 0.0.1-dev
+homepage: https://ferrygraphql.com/
+description: Generated freezed types for Ferry GraphQL Client
+repository: https://github.com/gql-dart/ferry
+
+environment:
+  sdk: ^3.3.0
+
+topics:
+  - graphql
+  - gql
+  - ferry
+  - codegen
+
+dependencies:
+  gql: ^1.0.0
+  gql_code_builder: ^0.10.0
+  gql_tristate_value: ^1.0.0
+  code_builder: ^4.3.0
+  path: ^1.8.0
+  build: ^2.0.0
+  analyzer: ">=4.2.0 <7.0.0"
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  yaml: ^3.1.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+  build_runner: ^2.0.2
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1

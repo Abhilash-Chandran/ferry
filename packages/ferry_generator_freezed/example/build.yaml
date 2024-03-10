@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      ferry_generator_freezed|graphql_builder:
+        enabled: true
+        options:
+          schema: example|lib/schema.graphql
